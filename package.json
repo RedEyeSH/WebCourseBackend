@@ -1,0 +1,32 @@
+{
+  "name": "webcoursebackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedEyeSH/WebCourseBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RedEyeSH/WebCourseBackend/issues"
+  },
+  "homepage": "https://github.com/RedEyeSH/WebCourseBackend#readme",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.9"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
